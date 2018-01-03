@@ -1,0 +1,33 @@
+{
+  "name": "vue-toggle",
+  "version": "1.0.0",
+  "description": "A Vue component that provides the functionality of a toggle or rather a switcher.",
+  "main": "dist/vue-toggle.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Thore Weilbier",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weilbith/vue-toggle.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.7",
+    "rimraf": "^2.6.2",
+    "vue": "^2.5.13",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^13.6.2",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  }
+}
